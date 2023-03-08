@@ -15,33 +15,36 @@
 
 <body>
     <!-- Header section -->
-    <header>
+    <header><div id="Herobg" >
         <!-- Hero image -->
-        <img src="https://ca.slack-edge.com/T1SFP028H-U04JZTE3HKK-e113a30f9949-512" class="center"
-            alt="Picture of Abdud-Dayaan" />
+        <picture>
+<source srcset="src\images\Me-small.jpg" media="(max-width: 700px )">
+<source srcset="src\images\Me-medium.jpg" media="(max-width: 1200px )">
+<img src="src\images\Me-large.jpg" alt="waist-up" class="waist-up">
+        </picture>
 
         <!-- Hero Title -->
         <h1>Abdud-Dayaan Salie</h1>
         <p>An introductory personal statement</p>
-    </header>
-<aside>
-<!-- Article section -->
-    <article>
+    </div></header>
+    <aside>
+        <!-- Article section -->
+        <article>
 
-        <!-- Nav section -->
-        <nav>
+            <!-- Nav section -->
+            <nav>
 
-            <div class="container">
-                <div class="education"><a href="#education">Education</a></div>
-                <div class="experience"><a href="#experience">Experience</a></div>
-                <div class="skills"><a href="#skills">Skills</a></div>
-            </div>
+                <div class="container">
+                    <div class="education"><a href="#education">Education</a></div>
+                    <div class="experience"><a href="#experience">Experience</a></div>
+                    <div class="skills"><a href="#skills">Skills</a></div>
+                </div>
 
-        </nav>
+            </nav>
     </aside>
 
     <section>
-    
+
         <div class="edu-exp">
             <!-- Edu section -->
             <div class="Education">
@@ -93,52 +96,66 @@
             <section>
 
                 <h2 id="skills">Skills</h2>
-            <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
-                <li>Skill 4</li>
-            </ul>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                    <li>Skill 4</li>
+                </ul>
 
             </section>
+
+
+
+        </div>
+
+
+
+        </article>
+
+        <!-- Footer Section -->
+        <footer class="bg">
+
+
             
+                <h2 id="contact-me">Contact Me:</h2>
+                <div class="contact-me">
+                <div>
+                    <img src="src/images/linkedinicon.png" class="LinkedIn">
+                    <a href="http://linkedin.com">
+                    LinkedIn
+                    
+                </a></div>
+                <div><img src="src/images/twittericon.png" class="Twitter">
+                <a href="https://twitter.com">
+                    Twitter
+                </a></div>
+                <div>
+                    <img src="src/images/facebookicon.png" class="Facebook">
+                <a href="https://www.facebook.com">
+                    Facebook
+                </a> </div>
+                </p>
+            </div>
 
+            <h3>Email me:</h3>
 
-        </div>
-
-
-
-    </article>
-
-    <!-- Footer Section -->
-    <footer class="bg">
-
-
-        <div class="contact-details">
-            <h2 id="contact-details">Contact Details</h2>
-            <p>
-                <a href="http://linkedin.com">LinkedIn</a>
-            </p>
-        </div>
-
-        <h4>Email me</h4>
-        
-        <form action="https://formsubmit.co/abduddayaansalie@gmail.com" method="POST">
-            <label for="name">Name</label>
-            <input type="text" name="Name" id="name" />
-            <label for="email">Email</label>
-            <input type="email" name="Email" id="email" required />
-            <label for="feedback">Quality of content</label>
-            <select name="Feedback" id="feedback" required>
-                <option value="Select">--Please Select An Option--</option>
-                <option value="Good">Good</option>
-                <option value="Okay">Okay</option>
-                <option value="Bad">Bad</option>
-            </select>
-            <label for="Message">Feedback Message</label>
-            <textarea name="Msg" id="Message" optional></textarea>
-            <button type="submit">Send</button>
-        </form>
+            <form action="https://formsubmit.co/abduddayaansalie@gmail.com" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="name" />
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" required />
+                <label for="feedback">Quality of content</label>
+                <select name="Feedback" id="feedback" required>
+                    <option value="Select">--Please Select An Option--</option>
+                    <option value="Good">Good</option>
+                    <option value="Okay">Okay</option>
+                    <option value="Bad">Bad</option>
+                </select>
+                <label for="Message">Feedback Message</label>
+                <textarea name="Msg" id="Message" optional></textarea>
+                <button type="submit">Send</button>
+            </form>
     </section>
     </footer>
 
