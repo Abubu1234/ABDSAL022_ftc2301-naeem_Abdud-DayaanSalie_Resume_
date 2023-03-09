@@ -15,18 +15,20 @@
 
 <body>
     <!-- Header section -->
-    <header><div id="Herobg" >
-        <!-- Hero image -->
-        <picture>
-<source srcset="src\images\Me-small.jpg" media="(max-width: 700px )">
-<source srcset="src\images\Me-medium.jpg" media="(max-width: 1200px )">
-<img src="src\images\Me-large.jpg" alt="waist-up" class="waist-up" width="400px" height="p">
-        </picture>
+    <header>
+        <div id="Herobg">
+            <!-- Hero image -->
+            <picture>
+                <source srcset="src\images\Me-small.jpg" media="(max-width: 550px )" width="50%">
+                <source srcset="src\images\Me-medium.jpg" media="(max-width: 875px )">
+                <img src="src\images\Me-large.jpg" alt="waist-up" class="waist-up" width="400px" height="p">
+            </picture>
 
-        <!-- Hero Title -->
-        <h1>Abdud-Dayaan Salie</h1>
-        <p>An introductory personal statement</p>
-    </div></header>
+            <!-- Hero Title -->
+            <h1>Abdud-Dayaan Salie</h1>
+            <p>An introductory personal statement</p>
+        </div>
+    </header>
     <aside>
         <!-- Article section -->
         <article>
@@ -116,46 +118,50 @@
         <footer class="bg">
 
 
-            
+
             <h2 id="contact-me">Contact Me:</h2>
-                <div class="form-border">
-                    <div class="contact-me">
-                <div>
-                    <img src="src/images/linkedinicon.png" class="LinkedIn">
-                    <a href="http://linkedin.com">
-                    LinkedIn
-                    
-                </a></div>
-                <div><img src="src/images/twittericon.png" class="Twitter">
-                <a href="https://twitter.com">
-                    Twitter
-                </a></div>
-                <div>
-                    <img src="src/images/facebookicon.png" class="Facebook">
-                <a href="https://www.facebook.com">
-                    Facebook
-                </a> </div>
-                </p>
+            <div class="form-border">
+                <div class="contact-me">
+                    <div>
+                        <img src="src/images/linkedinicon.png" class="LinkedIn">
+                        <a href="http://linkedin.com" target="_blank">
+                            LinkedIn
+
+                        </a>
+                    </div>
+                    <div><img src="src/images/twittericon.png" class="Twitter">
+                        <a href="https://twitter.com" target="_blank">
+                            Twitter
+                        </a>
+                    </div>
+                    <div>
+                        <img src="src/images/facebookicon.png" class="Facebook">
+                        <a href="https://www.facebook.com" target="_blank">
+                            Facebook
+                        </a>
+                    </div>
+                    </p>
+                </div>
+
+                <h3>Email me:</h3>
+
+                <form action="https://formsubmit.co/abduddayaansalie@gmail.com" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" id="name" />
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email" required />
+                    <label for="feedback">Quality of content</label>
+                    <select name="Feedback" id="feedback" required>
+                        <option value="Select">--Please Select An Option--</option>
+                        <option value="Good">Good</option>
+                        <option value="Okay">Okay</option>
+                        <option value="Bad">Bad</option>
+                    </select>
+                    <label for="Message">Feedback Message</label>
+                    <textarea name="Msg" id="Message" optional></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-
-            <h3>Email me:</h3>
-
-            <form action="https://formsubmit.co/abduddayaansalie@gmail.com" method="POST">
-                <label for="name">Name</label>
-                <input type="text" name="Name" id="name" />
-                <label for="email">Email</label>
-                <input type="email" name="Email" id="email" required />
-                <label for="feedback">Quality of content</label>
-                <select name="Feedback" id="feedback" required>
-                    <option value="Select">--Please Select An Option--</option>
-                    <option value="Good">Good</option>
-                    <option value="Okay">Okay</option>
-                    <option value="Bad">Bad</option>
-                </select>
-                <label for="Message">Feedback Message</label>
-                <textarea name="Msg" id="Message" optional></textarea>
-                <button type="submit">Send</button>
-            </form> </div>
     </section>
     </footer>
 
